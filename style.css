@@ -1,0 +1,45 @@
+:root{
+    /* colors */
+    --bg-color: #ffffff;
+    --header-bg-color: #f8f9fe;
+    --line-color: var(--secondary-color);
+    --primary-color: hsl(227, 47%, 96%);
+    --secondary-color: hsl(228, 12%, 44%);
+    --text-color: hsl(230, 17%, 14%);
+    --hover-color: #e1e3f0;
+    --facebook-color: #0a92ff;
+    --twitter-color: #1da1f2;
+    --instagram-color: linear-gradient(90deg, #ffdc80, #c13584);
+    --youtube-color: #ff0000;
+    --lime-green: hsl(163, 72%, 41%);
+    --bright-red: hsl(356, 69%, 56%);
+    --toggle-color: hsl(230, 22%, 74%);
+    --toggle-button-color: #ffffff;
+    --dark-mode-hover: var(--toggle-color);
+    /* dimensions */
+    --box-width: 23%;
+}
+
+.dark-mode{
+    --bg-color: #1d2029;
+    --header-bg-color: hsl(232, 19%, 15%);
+    --line-color: #373a4d;
+    --primary-color: #252b43;
+    --secondary-color: #9499b7;
+    --text-color: hsl(0, 0%, 100%);
+    --hover-color: #333a56;
+    --facebook-color: #0a92ff;
+    --twitter-color: #1da1f2;
+    --instagram-color: linear-gradient(90deg, #ffdc80, #c13584);
+    --youtube-color: #ff0000;
+    --toggle-color: linear-gradient(
+      90deg,
+      hsl(210, 78%, 56%),
+      hsl(146, 68%, 55%)
+    );
+    --toggle-button-color: #353956;
+    --dark-mode-hover: #ffffff;
+    /* dimensions */
+    --box-width: 23%;
+}
+

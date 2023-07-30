@@ -93,10 +93,7 @@ body {
   transition-property: background-color, color;
 }
 
-.dark footer a {
-  color: #1db489;
-  font-weight: 600;
-}
+
 
 nav {
   padding-top: 1.5rem;
@@ -410,7 +407,7 @@ section .card-footer .icon-up {
           transform: scale(0.9);
   width: 15px;
   height: 5px;
-}
+} */
 
 section .card-footer .icon-down {
   background-image: url("images/icon-down.svg");
@@ -700,40 +697,6 @@ section .card-two .card-two-content .icon {
   position: relative;
 }
 
-footer {
-  color: #63687e;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-size: 14px;
-  font-weight: 300;
-  margin-bottom: 3rem;
-  margin-top: 2rem;
-}
-
-@media (min-width: 301px) and (max-width: 414px) {
-  footer {
-    font-size: 10px;
-  }
-}
-
-@media (max-width: 280px) {
-  footer {
-    font-size: 8px;
-  }
-}
-
-footer a {
-  text-decoration: none;
-  color: #1e202a;
-  font-weight: 600;
-}
 
 .marg {
   margin-bottom: 2rem !important;
